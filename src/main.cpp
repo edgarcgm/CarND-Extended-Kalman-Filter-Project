@@ -162,7 +162,7 @@ int main() {
 
   int port = 4567;
   if (h.listen(port)) {
-    std::cout << "Listening to port " << port << std::endl;
+    std::cout << "Listening port " << port << std::endl;
   } else {
     std::cerr << "Failed to listen to port" << std::endl;
     return -1;
